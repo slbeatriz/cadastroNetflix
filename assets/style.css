@@ -166,3 +166,24 @@ body::before {
 .terms a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 730px){
+
+
+    .logo img{
+        width: 90px;
+        height: 35px;
+    }
+
+    .header{
+        width: 650px;
+    }
+
+    .login_footer{
+        font-size: 12px;
+    }
+
+    .login_footer span{
+        font-size: 15px;
+    }
+}
